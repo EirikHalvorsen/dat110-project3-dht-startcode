@@ -1,10 +1,8 @@
 package no.hvl.dat110.util;
 
 
-/**
- * dat110
- * @author tdoy
- */
+// dat110
+  
 
 import java.math.BigInteger;
 import java.rmi.NotBoundException;
@@ -44,9 +42,19 @@ public class Util {
 		// if id = 9, then (6 < 9 <= 2) = true
 		
 		// Task: given an identifier, id: check whether pred < id <= node
-		
-		return false;
 
+		boolean result = false;
+
+		// check if lower < upper and id is in the interval (lower, upper]
+		if (lower.compareTo(upper) < 0) {
+			result = id.compareTo(lower) >= 0 && id.compareTo(upper) <= 0;
+		}
+
+		if (lower.compareTo(upper) >= 0) {
+			result = id.compareTo(lower) >= 0 || (id.compareTo(upper) <= 0);
+		}
+
+		return result;
 	}
 	
 	public static List<String> toString(List<NodeInterface> list) throws RemoteException {

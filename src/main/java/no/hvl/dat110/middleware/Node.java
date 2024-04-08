@@ -16,7 +16,7 @@ import no.hvl.dat110.util.Hash;
 
 /**
  * @author tdoy
- * dat110: Project3 - Cooperative mirroring using DHT
+ * 
  */
 
 public class Node extends UnicastRemoteObject implements NodeInterface {
