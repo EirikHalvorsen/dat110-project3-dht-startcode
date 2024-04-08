@@ -5,10 +5,7 @@
 ![TEST PROSJEKT 3 MVN DAT110](https://github.com/EirikHalvorsen/dat110-project3-dht-startcode/assets/111433151/b3a07769-f975-40e8-b9fd-4cb0a6d28fcf)
 
 
-
-
-
-
+****** EIRIK VEDÅ HALVORSEN ******
 
 ### Project 3 - Weeks 12 to 15: 18/03 - 14/04
 
